@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow: auto;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header header-links {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header header-links ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header header-links ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -51,6 +52,7 @@ p {
 }
 
 .hero {
+    display: block;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -87,16 +89,19 @@ p {
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
+    display: block;
+    margin-bottom: 36px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    display: block;
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    display: block;
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -135,6 +140,7 @@ p {
 }
 
 .search-engine-optimization {
+    display: block;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +150,7 @@ p {
 }
 
 .online-reputation-management {
+    display: block;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +160,7 @@ p {
 }
 
 .social-media-marketing {
+    display: block;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
