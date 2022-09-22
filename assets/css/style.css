@@ -1,3 +1,4 @@
+/* Sets the generic page attributes and background color */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +9,9 @@
 body {
     background-color: #d9dcd6;
 }
+/*-------------------------------------------------------*/
 
+/* Sets the base element properties */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +19,7 @@ body {
     color: #ffffff;
 }
 
+/* Formats both parts of the lead header text */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,7 +28,9 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+/*--------------------------------------------*/
 
+/* Positions and styles the header links */
 .header header-links {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,6 +47,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/*--------------------------------------*/
 
 a {
     color: #ffffff;
@@ -51,6 +58,7 @@ p {
     font-size: 16px;
 }
 
+/* Applies an image to and positions the page hero image at the top */
 .hero {
     display: block;
     height: 800px;
@@ -61,6 +69,7 @@ p {
     background-position: center;
 }
 
+/* Sets the main content block image placement */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,13 +79,35 @@ p {
     float: right;
     margin-left: 25px;
 }
+/*---------------------------------------------*/
 
+/* Formats the main content blocks on the left of the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+.main-content-block {
+    display: block;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+.main-content-block img {
+    max-height: 200px;
+}
+
+.main-content-block h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*--------------------------------------------------------*/
+
+/* Formats the benefit details on the right of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,26 +135,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*------------------------------------------------------*/
 
-.main-content-block {
-    display: block;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-content-block img {
-    max-height: 200px;
-}
-
-.main-content-block h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Formats the page footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -134,3 +148,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*-----------------------------------------------------*/
