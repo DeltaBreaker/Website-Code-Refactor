@@ -14,6 +14,7 @@ This repo was created to refactor the HTML and CSS code written for this website
 
 ## Results
 ### Sample screenshot:
+![image](https://user-images.githubusercontent.com/6527156/191885142-3c22505c-0dc4-4767-bbfb-bbc71a1c4817.png)
 
 ### The finished website can be viewed here:
 https://deltabreaker.github.io/Website-Code-Refactor/
